@@ -11,6 +11,7 @@ import java.security.NoSuchAlgorithmException;
 @RestController
 public class HashController {
     //this is the test
+    //this is test 2
     @RequestMapping("/hash/{input}")
     public String getDigest(@PathVariable("input") String input) throws NoSuchAlgorithmException {
         for(int i = 0; i < 100_000; i++) {
